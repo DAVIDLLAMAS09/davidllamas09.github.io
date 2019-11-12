@@ -1,0 +1,290 @@
+@media (max-width: 768px) { 
+    .one{
+        background: url(../img/Compu.png);
+        background-size: 500%;
+        height: auto;
+    }
+
+    .movil-img{
+        width:100%;
+        margin-bottom: 5px;
+    }
+
+    .text-one {
+        position: relative;
+        z-index: 2;
+         margin: 0px;
+        margin-top: 100px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .text-one p {
+        padding-right: 0px;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 30px;
+        font-weight: normal;
+    }
+
+    .text-one button {
+        padding: 15px 45px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        background: #ff6319;
+        border-radius: 5px;
+        border: none;
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .pos-nav {
+        float: none;
+    }
+
+    .pos-nav li {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .second {
+        padding: 10px 0px;
+        background: #f1f5f7;
+    }
+
+    .second h2 {
+        color: #ff6319;
+        letter-spacing: 2px;
+        padding: 30px 0px;
+        text-align: left;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .third {
+        background: url(../img/pesas_movil.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 800px;
+        padding: 110px 0px;
+    }
+
+    .third p {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .muestra1 {
+        background: #ff6319;
+        padding: 80px 0px;
+    }
+
+    .muestra1 h2{
+        color: #fff;
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .muestra1 img{
+        display:block;
+        margin:auto;
+    }
+
+    .muestra{
+        background: #000;
+        color: #fff;
+    }
+    
+    .beneficios{
+        
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+    .muestra img{
+        display: block;
+        margin: auto;
+    }
+
+    .muestra h3{
+        text-align:center;
+    }
+
+    .navbar-collapse{
+        border-color:#ff6319!important ;
+    }
+
+    .navbar-header{
+        margin-bottom: 18px!important;
+    }
+
+    .navbar-toggle {
+        background: #ff6319;
+        border: none;
+        padding: 15px;
+    }
+
+    .navbar-toggle:hover {
+        background: transparent;
+        border: none;
+        padding: 15px;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .pie{
+        text-align: center;
+    }
+
+    .pie p{
+        text-align: center;
+    }
+
+    .formulario{
+        margin-top: 100px;
+    }
+
+    .triangle-izq{
+        position: absolute;
+        top: -68px;
+        left: 0;
+        width:0;
+        height:0;
+        border-right: 300px solid transparent;
+        }
+
+
+        
+        .triangle-der{
+            position: absolute;
+            top: -68px;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-left:300px solid transparent;
+        }
+
+        .borde1 {
+            border-bottom: 70px solid #000;
+        }
+
+        .btn-margen {
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .formulario h2 {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            color: #fff;
+            border: 0px solid transparent;
+            padding: 15px;
+        }
+        
+
+    
+ }
+
+@media (min-width: 576px ) and  (max-width:767px) { 
+   
+    
+ }
+
+
+@media (min-width: 769px) and  (max-width:997px) { 
+    footer {
+        background: #000;
+        padding: 80px 10px;
+        text-align: center;
+    }
+
+    .pie p {
+        color: #fff;
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .img-bottom2 {
+        background: url(../img/plecanegra.png);
+        background-position: right;
+        /* height: 500px; */
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 64px 0px;
+    }
+
+    .img-bottom2 h3 {
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .img-bottom {
+        background: url(../img/page1.png);
+        /* height: 500px; */
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 100px;
+        padding: 42px 0px;
+    }
+
+    .img-bottom img {
+        max-width: 200%;
+    }
+
+    .third p {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 10px;
+         width: 100%; 
+         margin: 0 auto; 
+    }
+
+    .third {
+        background: url(../img/Foto.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 500px;
+        padding: 50px 0px;
+    }
+
+    .pos-img {
+        margin-top: -2px;
+    }
+
+    .one {
+        margin-top: 83px;
+        position: relative;
+        height: 335px;
+    }
+
+    .text-one {
+        position: relative;
+        z-index: 2;
+        margin: 50px;
+        margin-top: 72px;
+        color: #fff;
+        margin-left: -0px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+
+ }
