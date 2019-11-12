@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -141,9 +141,9 @@
                         <div class="col-md-12 col-sm-12">
                                 <div class="col-md-3 col-sm-3 "><span class="price1">$695</span> <span class="currency"> MXN</span></div>
                                 <div class="col-md-1 col-sm-1 "><img src="img/Group10.png" alt=""></div>
-                                <div class="col-md-3 col-sm-3 "><input type="number" name="number" id=""></div>
+                                <div class="col-md-3 col-sm-3 "><input type="number" name="number" id="" ng-model="inputmodel"></div>
                                 <div class="col-md-1 col-sm-1 "><img src="img/Group5.png" alt=""></div>
-                                <div class="col-md-4 col-sm-4 "><span class="price">$2,499</span><span class="currency2"> MXN</span></div>
+                                <div class="col-md-4 col-sm-4 "><span class="price">${{695 + inputnum}}</span><span class="currency2"> MXN</span></div>
                         </div>
                         <button class="btn btn-primary posicion" type="button ">Inicia Gratis</button>
 
@@ -329,5 +329,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+
 </body>
 </html>
