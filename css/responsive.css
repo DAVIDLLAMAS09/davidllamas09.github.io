@@ -48,6 +48,10 @@
         margin-top: 10px;
         text-align: center;
     }
+    
+    .pos-img {
+    margin-top: -30px;
+}
 
     .second {
         padding: 10px 0px;
